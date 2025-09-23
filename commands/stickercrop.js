@@ -36,8 +36,8 @@ async function stickercropCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '120363421299105029@newsletter',
+                    newsletterName: 'SuzzyTech',
                     serverMessageId: -1
                 }
             }
@@ -58,8 +58,8 @@ async function stickercropCommand(sock, chatId, message) {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '120363421299105029@newsletter',
+                        newsletterName: 'SuzzyTech',
                         serverMessageId: -1
                     }
                 }
@@ -149,7 +149,7 @@ async function stickercropCommand(sock, chatId, message) {
         // Create metadata
         const json = {
             'sticker-pack-id': crypto.randomBytes(32).toString('hex'),
-            'sticker-pack-name': settings.packname || 'KnightBot',
+            'sticker-pack-name': settings.packname || 'SuzzyTech',
             'emojis': ['✂️']
         };
 
@@ -186,8 +186,8 @@ async function stickercropCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '120363421299105029@newsletter',
+                    newsletterName: 'SuzzyTech',
                     serverMessageId: -1
                 }
             }
